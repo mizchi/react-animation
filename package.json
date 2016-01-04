@@ -1,0 +1,19 @@
+{
+  "name": "react-animation",
+  "version": "0.1.0",
+  "description": "react animation container",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mizchi",
+  "license": "MIT",
+  "dependencies": {
+    "performance-now": "^0.2.0",
+    "raf": "^3.1.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
