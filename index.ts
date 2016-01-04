@@ -1,7 +1,7 @@
 import {Component} from "react";
 var raf: any = require("raf");
 var now: any = require("performance-now");
-class Animation extends Component<{
+export default class Animation extends Component<{
   duration: number;
   easing?: (n: number) => number;
   frameResolution?: number;

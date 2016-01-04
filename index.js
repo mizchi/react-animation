@@ -77,4 +77,6 @@ var Animation = (function (_super) {
     };
     return Animation;
 }(react_1.Component));
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = Animation;
 module.exports = Animation;
