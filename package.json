@@ -1,5 +1,5 @@
 {
-  "name": "react-animation",
+  "name": "@mizchi/react-animation",
   "version": "0.1.0",
   "description": "react animation container",
   "main": "index.js",

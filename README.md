@@ -3,12 +3,12 @@
 Inspired by react-motion
 
 ```
-$ npm install react-animation
+$ npm install @mizchi/react-animation
 ```
 
 ```js
 import * as React from "react";
-import Animation from "./Animation";
+import Animation from "@mizchi/react-animation";
 
 class MovingCircle extends React.Component<{}, {}> {
   render() {
