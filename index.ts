@@ -81,7 +81,7 @@ class Animation extends Component<{
   }
 
   render() {
-    return (this.props as any).children(this.state.step);
+    return (this.props as any).children(this.props.easing(this.state.step));
   }
 }
 module.exports = Animation

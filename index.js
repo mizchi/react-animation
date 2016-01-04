@@ -67,7 +67,7 @@ var Animation = (function (_super) {
         }
     };
     Animation.prototype.render = function () {
-        return this.props.children(this.state.step);
+        return this.props.children(this.props.easing(this.state.step));
     };
     Animation.defaultProps = {
         easing: function (n) { return n; },
